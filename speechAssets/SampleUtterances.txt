@@ -1,0 +1,14 @@
+AddBirthdayIntent add new birthday
+AddBirthdayIntent add birthday
+AddBirthdayIntent add a birthday
+AddBirthdayIntent new birthday
+
+GetBirthdayIntent get Today's birthdays
+GetBirthdayIntent get Week's birthdays
+GetBirthdayIntent get birthday
+GetBirthdayIntent Today's birthdays
+GetBirthdayIntent Week's birthdays
+GetBirthdayIntent birthdays
+
+GetWishListIntent get wish list
+GetWishListIntent wish list
