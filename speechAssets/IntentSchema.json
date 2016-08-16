@@ -1,23 +1,6 @@
 {
   "intents": [
     {
-      "intent": "AddBirthdayIntent",
-      "slots": [
-        {
-          "name": "Name",
-          "birthday": "BirthDate",
-          "amazon_email": "AmazonEmail",
-          "phone_number": "PhoneNumber",
-        }
-      ]
-    },
-    {
-      "intent": "GetBirthdayIntent"
-    },
-    {
-      "intent": "GetWishListIntent"
-    },
-    {
       "intent": "AMAZON.HelpIntent"
     },
     {

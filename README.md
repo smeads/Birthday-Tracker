@@ -1,2 +1,2 @@
-###Birthday Tracker
-##An Alexa inspired way to track all the birthdays you just can't seem to remember
+##Snow Giddy
+###Most accurate way to get your snow report, avalanche report, weather conditions, five day forecast, etc.
