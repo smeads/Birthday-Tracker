@@ -1,6 +1,159 @@
 {
   "intents": [
     {
+      "intent": "GetFullReportIntent",
+      "slot": [
+        {
+          "name": "Resort",
+          "type": "LIST_OF_RESORTS"
+        }
+      ]
+    },
+    {
+      "intent": "GetNewSnowIntent",
+      "slot": [
+        {
+          "name": "Resort",
+          "type": "LIST_OF_RESORTS"
+        }
+      ]
+    },
+    {
+      "intent": "GetTwentyFourHourSnowIntent",
+      "slot": [
+        {
+          "name": "Resort",
+          "Type": "LIST_OF_RESORTS"
+        }
+      ]
+    },
+    {
+      "intent": "GetSeventyTwoHourSnowIntent",
+      "slot": [
+        {
+          "name": "Resort",
+          "Type": "LIST_OF_RESORTS"
+        }
+      ]
+    },
+    {
+      "intent": "GetBaseDepthIntent",
+      "slot": [
+        {
+          "name": "Resort",
+          "Type": "LIST_OF_RESORTS"
+        }
+      ]
+    },
+    {
+      "intent": "GetSummitDepthIntent",
+      "slot": [
+        {
+          "name": "Resort",
+          "Type": "LIST_OF_RESORTS"
+        }
+      ]
+    },
+    {
+      "intent": "GetWeatherIntent",
+      "slot": [
+        {
+          "name": "Resort",
+          "Type": "LIST_OF_RESORTS"
+        }
+      ]
+    },
+    {
+      "intent": "GetAvalancheReportIntent",
+      "slot": [
+        {
+          "name": "Resort",
+          "Type": "LIST_OF_RESORTS"
+        }
+      ]
+    },
+    {
+      "intent": "GetVisibilityIntent",
+      "slot": [
+        {
+          "name": "Resort",
+          "Type": "LIST_OF_RESORTS"
+        }
+      ]
+    },
+    {
+      "intent": "GetSnowConditionIntent",
+      "slot": [
+        {
+          "name": "Resort",
+          "Type": "LIST_OF_RESORTS"
+        }
+      ]
+    },
+    {
+      "intent": "GetResortStatusIntent",
+      "slot": [
+        {
+          "name": "Resort",
+          "Type": "LIST_OF_RESORTS"
+        }
+      ]
+    },
+    {
+      "intent": "GetOperatingLiftsIntent",
+      "slot": [
+        {
+          "name": "Resort",
+          "Type": "LIST_OF_RESORTS"
+        }
+      ]
+    },
+    {
+      "intent": "GetElevationIntent",
+      "slot": [
+        {
+          "name": "Resort",
+          "Type": "LIST_OF_RESORTS"
+        }
+      ]
+    },
+    {
+      "intent": "GetResortOverviewIntent",
+      "slot": [
+        {
+          "name": "Resort",
+          "Type": "LIST_OF_RESORTS"
+        }
+      ]
+    },
+    {
+      "intent": "GetTerrainOverviewIntent",
+      "slot": [
+        {
+          "name": "Resort",
+          "Type": "LIST_OF_RESORTS"
+        }
+      ]
+    },
+    {
+      "intent": "GetResortContactInfoIntent",
+      "slot": [
+        {
+          "name": "Resort",
+          "Type": "LIST_OF_RESORTS"
+        }
+      ]
+    },
+    {
+      "intent": "GetLiftTicketPriceIntent",
+      "slot": [
+        {
+          "name": "Resort",
+          "Type": "LIST_OF_RESORTS"
+        }
+      ]
+    },
+    {
       "intent": "AMAZON.HelpIntent"
     },
     {
