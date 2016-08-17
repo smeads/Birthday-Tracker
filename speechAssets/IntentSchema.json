@@ -4,16 +4,7 @@
       "intent": "GetFullReportIntent",
       "slot": [
         {
-          "name": "Resort",
-          "type": "LIST_OF_RESORTS"
-        }
-      ]
-    },
-    {
-      "intent": "GetNewSnowIntent",
-      "slot": [
-        {
-          "name": "Resort",
+          "name": "resort",
           "type": "LIST_OF_RESORTS"
         }
       ]
@@ -22,8 +13,8 @@
       "intent": "GetTwentyFourHourSnowIntent",
       "slot": [
         {
-          "name": "Resort",
-          "Type": "LIST_OF_RESORTS"
+          "name": "resort",
+          "type": "LIST_OF_RESORTS"
         }
       ]
     },
@@ -31,8 +22,17 @@
       "intent": "GetSeventyTwoHourSnowIntent",
       "slot": [
         {
-          "name": "Resort",
-          "Type": "LIST_OF_RESORTS"
+          "name": "resort",
+          "type": "LIST_OF_RESORTS"
+        }
+      ]
+    },
+    {
+      "intent": "GetFiveDayForecastIntent",
+      "slot": [
+        {
+          "name": "resort",
+          "type": "LIST_OF_RESORTS"
         }
       ]
     },
@@ -40,8 +40,8 @@
       "intent": "GetBaseDepthIntent",
       "slot": [
         {
-          "name": "Resort",
-          "Type": "LIST_OF_RESORTS"
+          "name": "resort",
+          "type": "LIST_OF_RESORTS"
         }
       ]
     },
@@ -49,8 +49,8 @@
       "intent": "GetSummitDepthIntent",
       "slot": [
         {
-          "name": "Resort",
-          "Type": "LIST_OF_RESORTS"
+          "name": "resort",
+          "type": "LIST_OF_RESORTS"
         }
       ]
     },
@@ -58,8 +58,8 @@
       "intent": "GetWeatherIntent",
       "slot": [
         {
-          "name": "Resort",
-          "Type": "LIST_OF_RESORTS"
+          "name": "resort",
+          "type": "LIST_OF_RESORTS"
         }
       ]
     },
@@ -67,8 +67,8 @@
       "intent": "GetAvalancheReportIntent",
       "slot": [
         {
-          "name": "Resort",
-          "Type": "LIST_OF_RESORTS"
+          "name": "resort",
+          "type": "LIST_OF_RESORTS"
         }
       ]
     },
@@ -76,8 +76,8 @@
       "intent": "GetVisibilityIntent",
       "slot": [
         {
-          "name": "Resort",
-          "Type": "LIST_OF_RESORTS"
+          "name": "resort",
+          "type": "LIST_OF_RESORTS"
         }
       ]
     },
@@ -85,17 +85,17 @@
       "intent": "GetSnowConditionIntent",
       "slot": [
         {
-          "name": "Resort",
-          "Type": "LIST_OF_RESORTS"
+          "name": "resort",
+          "type": "LIST_OF_RESORTS"
         }
       ]
     },
     {
-      "intent": "GetResortStatusIntent",
+      "intent": "GetresortStatusIntent",
       "slot": [
         {
-          "name": "Resort",
-          "Type": "LIST_OF_RESORTS"
+          "name": "resort",
+          "type": "LIST_OF_RESORTS"
         }
       ]
     },
@@ -103,8 +103,8 @@
       "intent": "GetOperatingLiftsIntent",
       "slot": [
         {
-          "name": "Resort",
-          "Type": "LIST_OF_RESORTS"
+          "name": "resort",
+          "type": "LIST_OF_RESORTS"
         }
       ]
     },
@@ -112,8 +112,8 @@
       "intent": "GetElevationIntent",
       "slot": [
         {
-          "name": "Resort",
-          "Type": "LIST_OF_RESORTS"
+          "name": "resort",
+          "type": "LIST_OF_RESORTS"
         }
       ]
     },
@@ -121,8 +121,8 @@
       "intent": "GetResortOverviewIntent",
       "slot": [
         {
-          "name": "Resort",
-          "Type": "LIST_OF_RESORTS"
+          "name": "resort",
+          "type": "LIST_OF_RESORTS"
         }
       ]
     },
@@ -130,17 +130,17 @@
       "intent": "GetTerrainOverviewIntent",
       "slot": [
         {
-          "name": "Resort",
-          "Type": "LIST_OF_RESORTS"
+          "name": "resort",
+          "type": "LIST_OF_RESORTS"
         }
       ]
     },
     {
-      "intent": "GetResortContactInfoIntent",
+      "intent": "GetContactInfoIntent",
       "slot": [
         {
-          "name": "Resort",
-          "Type": "LIST_OF_RESORTS"
+          "name": "resort",
+          "type": "LIST_OF_RESORTS"
         }
       ]
     },
@@ -148,8 +148,34 @@
       "intent": "GetLiftTicketPriceIntent",
       "slot": [
         {
-          "name": "Resort",
-          "Type": "LIST_OF_RESORTS"
+          "name": "resort",
+          "type": "LIST_OF_RESORTS"
+        }
+      ]
+    },
+    {
+      "intent": "SendFullReportIntent",
+      "slot": [
+        {
+          "name": "resort",
+          "type": "LIST_OF_RESORTS"
+        }
+        {
+          "name": "number",
+          "type": "LIST_OF_NUMBERS"
+        }
+      ]
+    },
+    {
+      "intent": "SendFiveDayForecastIntent",
+      "slot": [
+        {
+          "name": "resort",
+          "type": "LIST_OF_RESORTS"
+        }
+        {
+          "name": "number",
+          "type": "LIST_OF_NUMBERS"
         }
       ]
     },
