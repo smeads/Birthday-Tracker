@@ -143,3 +143,8 @@ SendFiveDayForecastIntent send five day forecast for {resort} to {number}
 SendFiveDayForecastIntent send me five day forecast for {resort} to {number}
 SendFiveDayForecastIntent text five day forecast for {resort} to {number}
 SendFiveDayForecastIntent receive five day forecast for {resort} to {number}
+
+SendContactInfoIntent send contact info for {resort} to {number}
+SendContactInfoIntent send me contact info for {resort} to {number}
+SendContactInfoIntent text contact info for {resort} to {number}
+SendContactInfoIntent receive contact info for {resort} to {number}

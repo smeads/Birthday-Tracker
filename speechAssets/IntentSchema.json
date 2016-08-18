@@ -180,6 +180,19 @@
       ]
     },
     {
+      "intent": "SendContactInfoIntent",
+      "slot": [
+        {
+          "name": "resort",
+          "type": "LIST_OF_RESORTS"
+        }
+        {
+          "name": "number",
+          "type": "LIST_OF_NUMBERS"
+        }
+      ]
+    },
+    {
       "intent": "AMAZON.HelpIntent"
     },
     {
