@@ -344,6 +344,6 @@ function parseJson(inputText) {
 // Create the handler that responds to the Alexa Request.
 exports.handler = function (event, context) {
     // Create an instance of the HistoryBuff Skill.
-    var skill = new HistoryBuffSkill();
+    var skill = new SnowGiddy();
     skill.execute(event, context);
 };
