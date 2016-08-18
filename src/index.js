@@ -206,8 +206,6 @@ function handleFullReportRequest(intent, session, response) {
     sessionAttributes.index = paginationSize;
     var resort = "";
 
-    // If the user provides a date, then use that, otherwise use today
-    // The date is in server time, not in the user's time zone. So "today" for the user may actually be tomorrow
     if (resortSlot && resortSlot.value) {
         resort = new Resort(resortSlot.value);
     } else {
