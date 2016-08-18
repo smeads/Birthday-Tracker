@@ -1,150 +1,150 @@
-GetFullReportIntent get full report for {resort}
-GetFullReportIntent give me full report for {resort}
-GetFullReportIntent full report for {resort}
-GetFullReportIntent what is full report for {resort}
-GetFullReportIntent {resort} full report
-GetFullReportIntent tell full report for {resort}
-GetFullReportIntent hear full report for {resort}
+GetFullReportIntent get full report for {resortName}
+GetFullReportIntent give me full report for {resortName}
+GetFullReportIntent full report for {resortName}
+GetFullReportIntent what is full report for {resortName}
+GetFullReportIntent {resortName} full report
+GetFullReportIntent tell full report for {resortName}
+GetFullReportIntent hear full report for {resortName}
 
-GetTwentyFourHourSnowIntent get twenty four hour snow report for {resort}
-GetTwentyFourHourSnowIntent give me twenty four hour snow report for {resort}
-GetTwentyFourHourSnowIntent twenty four hour snow report for {resort}
-GetTwentyFourHourSnowIntent what is twenty four hour snow report for {resort}
-GetTwentyFourHourSnowIntent {resort} twenty four hour snow report
-GetTwentyFourHourSnowIntent tell twenty four hour snow report for {resort}
-GetTwentyFourHourSnowIntent hear twenty four hour snow report for {resort}
+GetTwentyFourHourSnowIntent get twenty four hour snow report for {resortName}
+GetTwentyFourHourSnowIntent give me twenty four hour snow report for {resortName}
+GetTwentyFourHourSnowIntent twenty four hour snow report for {resortName}
+GetTwentyFourHourSnowIntent what is twenty four hour snow report for {resortName}
+GetTwentyFourHourSnowIntent {resortName} twenty four hour snow report
+GetTwentyFourHourSnowIntent tell twenty four hour snow report for {resortName}
+GetTwentyFourHourSnowIntent hear twenty four hour snow report for {resortName}
 
-GetSeventyTwoHourSnowIntent get seventy two hour snow report for {resort}
-GetSeventyTwoHourSnowIntent give me seventy two hour snow report for {resort}
-GetSeventyTwoHourSnowIntent seventy two hour snow report for {resort}
-GetSeventyTwoHourSnowIntent what is seventy two hour snow report for {resort}
-GetSeventyTwoHourSnowIntent {resort} seventy two hour snow report
-GetSeventyTwoHourSnowIntent tell seventy two hour snow report for {resort}
-GetSeventyTwoHourSnowIntent hear seventy two hour snow report for {resort}
+GetSeventyTwoHourSnowIntent get seventy two hour snow report for {resortName}
+GetSeventyTwoHourSnowIntent give me seventy two hour snow report for {resortName}
+GetSeventyTwoHourSnowIntent seventy two hour snow report for {resortName}
+GetSeventyTwoHourSnowIntent what is seventy two hour snow report for {resortName}
+GetSeventyTwoHourSnowIntent {resortName} seventy two hour snow report
+GetSeventyTwoHourSnowIntent tell seventy two hour snow report for {resortName}
+GetSeventyTwoHourSnowIntent hear seventy two hour snow report for {resortName}
 
-GetFiveDayForecastIntent get five day forecast for {resort}
-GetFiveDayForecastIntent give me five day forecast for {resort}
-GetFiveDayForecastIntent five day forecast for {resort}
-GetFiveDayForecastIntent what is five day forecast for {resort}
-GetFiveDayForecastIntent {resort} five day forecast
-GetFiveDayForecastIntent tell five day forecast for {resort}
-GetFiveDayForecastIntent hear five day forecast for {resort}
+GetFiveDayForecastIntent get five day forecast for {resortName}
+GetFiveDayForecastIntent give me five day forecast for {resortName}
+GetFiveDayForecastIntent five day forecast for {resortName}
+GetFiveDayForecastIntent what is five day forecast for {resortName}
+GetFiveDayForecastIntent {resortName} five day forecast
+GetFiveDayForecastIntent tell five day forecast for {resortName}
+GetFiveDayForecastIntent hear five day forecast for {resortName}
 
-GetBaseDepthIntent get base depth for {resort}
-GetBaseDepthIntent give me base depth for {resort}
-GetBaseDepthIntent base depth for {resort}
-GetBaseDepthIntent what is base depth for {resort}
-GetBaseDepthIntent {resort} base depth
-GetBaseDepthIntent tell base depth for {resort}
-GetBaseDepthIntent hear base depth for {resort}
+GetBaseDepthIntent get base depth for {resortName}
+GetBaseDepthIntent give me base depth for {resortName}
+GetBaseDepthIntent base depth for {resortName}
+GetBaseDepthIntent what is base depth for {resortName}
+GetBaseDepthIntent {resortName} base depth
+GetBaseDepthIntent tell base depth for {resortName}
+GetBaseDepthIntent hear base depth for {resortName}
 
-GetSummitDepthIntent get summit depth for {resort}
-GetSummitDepthIntent give me summit depth for {resort}
-GetSummitDepthIntent summit depth for {resort}
-GetSummitDepthIntent what is summit depth for {resort}
-GetSummitDepthIntent {resort} summit depth
-GetSummitDepthIntent tell summit depth for {resort}
-GetSummitDepthIntent hear summit depth for {resort}
+GetSummitDepthIntent get summit depth for {resortName}
+GetSummitDepthIntent give me summit depth for {resortName}
+GetSummitDepthIntent summit depth for {resortName}
+GetSummitDepthIntent what is summit depth for {resortName}
+GetSummitDepthIntent {resortName} summit depth
+GetSummitDepthIntent tell summit depth for {resortName}
+GetSummitDepthIntent hear summit depth for {resortName}
 
-GetWeatherIntent get weather for {resort}
-GetWeatherIntent give me weather for {resort}
-GetWeatherIntent weather for {resort}
-GetWeatherIntent what is weather for {resort}
-GetWeatherIntent {resort} weather
-GetWeatherIntent tell weather for {resort}
-GetWeatherIntent hear weather for {resort}
+GetWeatherIntent get weather for {resortName}
+GetWeatherIntent give me weather for {resortName}
+GetWeatherIntent weather for {resortName}
+GetWeatherIntent what is weather for {resortName}
+GetWeatherIntent {resortName} weather
+GetWeatherIntent tell weather for {resortName}
+GetWeatherIntent hear weather for {resortName}
 
-GetAvalancheReportIntent get avalanche report for {resort}
-GetAvalancheReportIntent give me avalanche report for {resort}
-GetAvalancheReportIntent avalanche report for {resort}
-GetAvalancheReportIntent what is avalanche report for {resort}
-GetAvalancheReportIntent {resort} avalanche report
-GetAvalancheReportIntent tell avalanche report for {resort}
-GetAvalancheReportIntent hear avalanche report for {resort}
+GetAvalancheReportIntent get avalanche report for {resortName}
+GetAvalancheReportIntent give me avalanche report for {resortName}
+GetAvalancheReportIntent avalanche report for {resortName}
+GetAvalancheReportIntent what is avalanche report for {resortName}
+GetAvalancheReportIntent {resortName} avalanche report
+GetAvalancheReportIntent tell avalanche report for {resortName}
+GetAvalancheReportIntent hear avalanche report for {resortName}
 
-GetVisibilityIntent get visibility for {resort}
-GetVisibilityIntent give me visibility for {resort}
-GetVisibilityIntent visibility for {resort}
-GetVisibilityIntent what is visibility for {resort}
-GetVisibilityIntent {resort} visibility
-GetVisibilityIntent tell visibility for {resort}
-GetVisibilityIntent hear visibility for {resort}
+GetVisibilityIntent get visibility for {resortName}
+GetVisibilityIntent give me visibility for {resortName}
+GetVisibilityIntent visibility for {resortName}
+GetVisibilityIntent what is visibility for {resortName}
+GetVisibilityIntent {resortName} visibility
+GetVisibilityIntent tell visibility for {resortName}
+GetVisibilityIntent hear visibility for {resortName}
 
-GetSnowConditionIntent get snow condition for {resort}
-GetSnowConditionIntent give me snow condition for {resort}
-GetSnowConditionIntent snow condition for {resort}
-GetSnowConditionIntent what is snow condition for {resort}
-GetSnowConditionIntent {resort} snow condition
-GetSnowConditionIntent tell snow condition for {resort}
-GetSnowConditionIntent hear snow condition for {resort}
+GetSnowConditionIntent get snow condition for {resortName}
+GetSnowConditionIntent give me snow condition for {resortName}
+GetSnowConditionIntent snow condition for {resortName}
+GetSnowConditionIntent what is snow condition for {resortName}
+GetSnowConditionIntent {resortName} snow condition
+GetSnowConditionIntent tell snow condition for {resortName}
+GetSnowConditionIntent hear snow condition for {resortName}
 
-GetResortStatusIntent get resort status for {resort}
-GetResortStatusIntent give me resort status for {resort}
-GetResortStatusIntent resort status for {resort}
-GetResortStatusIntent what is resort status for {resort}
-GetResortStatusIntent {resort} resort status
-GetResortStatusIntent tell resort status for {resort}
-GetResortStatusIntent hear resort status for {resort}
+GetResortStatusIntent get resort status for {resortName}
+GetResortStatusIntent give me resort status for {resortName}
+GetResortStatusIntent resort status for {resortName}
+GetResortStatusIntent what is resort status for {resortName}
+GetResortStatusIntent {resortName} resort status
+GetResortStatusIntent tell resort status for {resortName}
+GetResortStatusIntent hear resort status for {resortName}
 
-GetOperatingLiftsIntent get operating lifts for {resort}
-GetOperatingLiftsIntent give me operating lifts for {resort}
-GetOperatingLiftsIntent operating lifts for {resort}
-GetOperatingLiftsIntent what is operating lifts for {resort}
-GetOperatingLiftsIntent {resort} operating lifts
-GetOperatingLiftsIntent tell operating lifts for {resort}
-GetOperatingLiftsIntent hear operating lifts for {resort}
+GetOperatingLiftsIntent get operating lifts for {resortName}
+GetOperatingLiftsIntent give me operating lifts for {resortName}
+GetOperatingLiftsIntent operating lifts for {resortName}
+GetOperatingLiftsIntent what is operating lifts for {resortName}
+GetOperatingLiftsIntent {resortName} operating lifts
+GetOperatingLiftsIntent tell operating lifts for {resortName}
+GetOperatingLiftsIntent hear operating lifts for {resortName}
 
-GetElevationIntent get elevation for {resort}
-GetElevationIntent give me elevation for {resort}
-GetElevationIntent elevation for {resort}
-GetElevationIntent what is elevation for {resort}
-GetElevationIntent {resort} elevation
-GetElevationIntent tell elevation for {resort}
-GetElevationIntent hear elevation for {resort}
+GetElevationIntent get elevation for {resortName}
+GetElevationIntent give me elevation for {resortName}
+GetElevationIntent elevation for {resortName}
+GetElevationIntent what is elevation for {resortName}
+GetElevationIntent {resortName} elevation
+GetElevationIntent tell elevation for {resortName}
+GetElevationIntent hear elevation for {resortName}
 
-GetResortOverviewIntent get resort overview for {resort}
-GetResortOverviewIntent give me resort overview for {resort}
-GetResortOverviewIntent resort overview for {resort}
-GetResortOverviewIntent what is resort overview for {resort}
-GetResortOverviewIntent {resort} resort overview
-GetResortOverviewIntent tell resort overview for {resort}
-GetResortOverviewIntent hear resort overview for {resort}
+GetResortOverviewIntent get resort overview for {resortName}
+GetResortOverviewIntent give me resort overview for {resortName}
+GetResortOverviewIntent resort overview for {resortName}
+GetResortOverviewIntent what is resort overview for {resortName}
+GetResortOverviewIntent {resortName} resort overview
+GetResortOverviewIntent tell resort overview for {resortName}
+GetResortOverviewIntent hear resort overview for {resortName}
 
-GetTerrainOverviewIntent get terrain overview for {resort}
-GetTerrainOverviewIntent give me terrain overview for {resort}
-GetTerrainOverviewIntent terrain overview for {resort}
-GetTerrainOverviewIntent what is terrain overview for {resort}
-GetTerrainOverviewIntent {resort} terrain overview
-GetTerrainOverviewIntent tell terrain overview for {resort}
-GetTerrainOverviewIntent hear terrain overview for {resort}
+GetTerrainOverviewIntent get terrain overview for {resortName}
+GetTerrainOverviewIntent give me terrain overview for {resortName}
+GetTerrainOverviewIntent terrain overview for {resortName}
+GetTerrainOverviewIntent what is terrain overview for {resortName}
+GetTerrainOverviewIntent {resortName} terrain overview
+GetTerrainOverviewIntent tell terrain overview for {resortName}
+GetTerrainOverviewIntent hear terrain overview for {resortName}
 
-GetContactInfoIntent get contact info for {resort}
-GetContactInfoIntent give me contact info for {resort}
-GetContactInfoIntent contact info for {resort}
-GetContactInfoIntent what is contact info for {resort}
-GetContactInfoIntent {resort} contact info
-GetContactInfoIntent tell contact info for {resort}
-GetContactInfoIntent hear contact info for {resort}
+GetContactInfoIntent get contact info for {resortName}
+GetContactInfoIntent give me contact info for {resortName}
+GetContactInfoIntent contact info for {resortName}
+GetContactInfoIntent what is contact info for {resortName}
+GetContactInfoIntent {resortName} contact info
+GetContactInfoIntent tell contact info for {resortName}
+GetContactInfoIntent hear contact info for {resortName}
 
-GetLiftTicketPriceIntent get lift ticket price for {resort}
-GetLiftTicketPriceIntent give me lift ticket price for {resort}
-GetLiftTicketPriceIntent lift ticket price for {resort}
-GetLiftTicketPriceIntent what is lift ticket price for {resort}
-GetLiftTicketPriceIntent {resort} lift ticket price
-GetLiftTicketPriceIntent tell lift ticket price for {resort}
-GetLiftTicketPriceIntent hear lift ticket price for {resort}
+GetLiftTicketPriceIntent get lift ticket price for {resortName}
+GetLiftTicketPriceIntent give me lift ticket price for {resortName}
+GetLiftTicketPriceIntent lift ticket price for {resortName}
+GetLiftTicketPriceIntent what is lift ticket price for {resortName}
+GetLiftTicketPriceIntent {resortName} lift ticket price
+GetLiftTicketPriceIntent tell lift ticket price for {resortName}
+GetLiftTicketPriceIntent hear lift ticket price for {resortName}
 
-SendFullReportIntent send full report for {resort} to {number}
-SendFullReportIntent send me full report for {resort} to {number}
-SendFullReportIntent text full report for {resort} to {number}
-SendFullReportIntent receive full report for {resort} to {number}
+SendFullReportIntent send full report for {resortName} to phone number
+SendFullReportIntent send me full report for {resortName} to phone number
+SendFullReportIntent text full report for {resortName} to phone number
+SendFullReportIntent receive full report for {resortName} to phone number
 
-SendFiveDayForecastIntent send five day forecast for {resort} to {number}
-SendFiveDayForecastIntent send me five day forecast for {resort} to {number}
-SendFiveDayForecastIntent text five day forecast for {resort} to {number}
-SendFiveDayForecastIntent receive five day forecast for {resort} to {number}
+SendFiveDayForecastIntent send five day forecast for {resortName} to phone number
+SendFiveDayForecastIntent send me five day forecast for {resortName} to phone number
+SendFiveDayForecastIntent text five day forecast for {resortName} to phone number
+SendFiveDayForecastIntent receive five day forecast for {resortName} to phone number
 
-SendContactInfoIntent send contact info for {resort} to {number}
-SendContactInfoIntent send me contact info for {resort} to {number}
-SendContactInfoIntent text contact info for {resort} to {number}
-SendContactInfoIntent receive contact info for {resort} to {number}
+SendContactInfoIntent send contact info for {resortName} to phone number
+SendContactInfoIntent send me contact info for {resortName} to phone number
+SendContactInfoIntent text contact info for {resortName} to phone number
+SendContactInfoIntent receive contact info for {resortName} to phone number
