@@ -4,8 +4,60 @@
       "intent": "GetFullReportIntent",
       "slot": [
         {
-          "name": "resort",
-          "type": "LIST_OF_RESORTS"
+          "name": "resortName",
+          "type": "string"
+        }
+        {
+          "name": "activeDate",
+          "type": "Date"
+        }
+        {
+          "name": "openflagname",
+          "type": "string"
+        }
+        {
+          "name": "latestSnow",
+          "type": "double"
+        }
+        {
+          "name": "snow24th",
+          "type": "double"
+        }
+        {
+          "name": "snow72th",
+          "type": "double"
+        }
+        {
+          "name": "snowCondition",
+          "type": "string"
+        }
+        {
+          "name": "liftsOpen",
+          "type": "integer"
+        }
+        {
+          "name": "perLiftsOpen",
+          "type": "integer"
+        }
+        {
+          "name": "avalancheScaleText",
+          "type": "string"
+        }
+        {
+          "name": "baseWeatherText",
+          "type": "string"
+        }
+        {
+          "name": "topWeatherText",
+          "type": "string"
+        }
+        {
+          "name": "visibilityBottomText",
+          "type": "string"
+        }
+        {
+          "name": "visibilityTopText",
+          "type": "string"
         }
       ]
     },
@@ -13,8 +65,12 @@
       "intent": "GetTwentyFourHourSnowIntent",
       "slot": [
         {
-          "name": "resort",
-          "type": "LIST_OF_RESORTS"
+          "name": "resortName",
+          "type": "string"
+        }
+        {
+          "name": "snow24th",
+          "type": "double"
         }
       ]
     },
@@ -22,8 +78,12 @@
       "intent": "GetSeventyTwoHourSnowIntent",
       "slot": [
         {
-          "name": "resort",
-          "type": "LIST_OF_RESORTS"
+          "name": "resortName",
+          "type": "string"
+        }
+        {
+          "name": "snow72th",
+          "type": "double"
         }
       ]
     },
@@ -31,8 +91,12 @@
       "intent": "GetFiveDayForecastIntent",
       "slot": [
         {
-          "name": "resort",
-          "type": "LIST_OF_RESORTS"
+          "name": "resortName",
+          "type": "string"
+        }
+        {
+          "name": "is_forecast",
+          "type": ""
         }
       ]
     },
@@ -40,8 +104,12 @@
       "intent": "GetBaseDepthIntent",
       "slot": [
         {
-          "name": "resort",
-          "type": "LIST_OF_RESORTS"
+          "name": "resortName",
+          "type": "string"
+        }
+        {
+          "name": "onSlope.lowerDepth",
+          "type": "double"
         }
       ]
     },
@@ -49,8 +117,12 @@
       "intent": "GetSummitDepthIntent",
       "slot": [
         {
-          "name": "resort",
-          "type": "LIST_OF_RESORTS"
+          "name": "resortName",
+          "type": "string"
+        }
+        {
+          "name": "onSlope.upperDepth",
+          "type": "double"
         }
       ]
     },
@@ -58,8 +130,20 @@
       "intent": "GetWeatherIntent",
       "slot": [
         {
-          "name": "resort",
-          "type": "LIST_OF_RESORTS"
+          "name": "resortName",
+          "type": "string"
+        }
+        {
+          "name": "resortReportedWeather",
+          "type": "string"
+        }
+        {
+          "name": "baseWeatherText",
+          "type": "string"
+        }
+        {
+          "name": "topWeatherText",
+          "type": "string"
         }
       ]
     },
@@ -67,8 +151,12 @@
       "intent": "GetAvalancheReportIntent",
       "slot": [
         {
-          "name": "resort",
-          "type": "LIST_OF_RESORTS"
+          "name": "resortName",
+          "type": "string"
+        }
+        {
+          "name": "avalancheScaleText",
+          "type": "string"
         }
       ]
     },
@@ -76,8 +164,16 @@
       "intent": "GetVisibilityIntent",
       "slot": [
         {
-          "name": "resort",
-          "type": "LIST_OF_RESORTS"
+          "name": "resortName",
+          "type": "string"
+        }
+        {
+          "name": "visibilityBottomText",
+          "type": "string"
+        }
+        {
+          "name": "visibilityTopText",
+          "type": "string"
         }
       ]
     },
@@ -85,8 +181,20 @@
       "intent": "GetSnowConditionIntent",
       "slot": [
         {
-          "name": "resort",
-          "type": "LIST_OF_RESORTS"
+          "name": "resortName",
+          "type": "string"
+        }
+        {
+          "name": "snowCondition",
+          "type": "string"
+        }
+        {
+          "name": "onSlope.surfaceBottom",
+          "type": "string"
+        }
+        {
+          "name": "onSlope.surfaceTop",
+          "type": "string"
         }
       ]
     },
@@ -94,8 +202,12 @@
       "intent": "GetresortStatusIntent",
       "slot": [
         {
-          "name": "resort",
-          "type": "LIST_OF_RESORTS"
+          "name": "resortName",
+          "type": "string"
+        }
+        {
+          "name": "openflagname",
+          "type": "string"
         }
       ]
     },
@@ -103,8 +215,16 @@
       "intent": "GetOperatingLiftsIntent",
       "slot": [
         {
-          "name": "resort",
-          "type": "LIST_OF_RESORTS"
+          "name": "resortName",
+          "type": "string"
+        }
+        {
+          "name": "liftsOpen",
+          "type": "integer"
+        }
+        {
+          "name": "perLiftsOpen",
+          "type": "integer"
         }
       ]
     },
@@ -112,8 +232,12 @@
       "intent": "GetElevationIntent",
       "slot": [
         {
-          "name": "resort",
-          "type": "LIST_OF_RESORTS"
+          "name": "elevationBase",
+          "type": "float"
+        }
+        {
+          "name": "elevationTop",
+          "type": "float"
         }
       ]
     },
@@ -121,8 +245,12 @@
       "intent": "GetResortOverviewIntent",
       "slot": [
         {
-          "name": "resort",
-          "type": "LIST_OF_RESORTS"
+          "name": "resortName",
+          "type": "string"
+        }
+        {
+          "name": "overview",
+          "type": "string"
         }
       ]
     },
@@ -130,8 +258,40 @@
       "intent": "GetTerrainOverviewIntent",
       "slot": [
         {
-          "name": "resort",
-          "type": "LIST_OF_RESORTS"
+          "name": "resortName",
+          "type": "string"
+        }
+        {
+          "name": "area",
+          "type": "integer"
+        }
+        {
+          "name": "LongestRun",
+          "type": "float"
+        }
+        {
+          "name": "numAdvancedRuns",
+          "type": "integer"
+        }
+        {
+          "name": "numBeginnerRuns",
+          "type": "integer"
+        }
+        {
+          "name": "numExpertRuns",
+          "type": "integer"
+        }
+        {
+          "name": "numIntermediateRuns",
+          "type": "integer"
+        }
+        {
+          "name": "numRuns",
+          "type": "integer"
+        }
+        {
+          "name": "verticalHeight",
+          "type": "float"
         }
       ]
     },
@@ -139,8 +299,36 @@
       "intent": "GetContactInfoIntent",
       "slot": [
         {
-          "name": "resort",
-          "type": "LIST_OF_RESORTS"
+          "name": "resortName",
+          "type": "string"
+        }
+        {
+          "name": "lodgingPhone",
+          "type": "string"
+        }
+        {
+          "name": "phone800",
+          "type": "string"
+        }
+        {
+          "name": "skierEmail",
+          "type": "string"
+        }
+        {
+          "name": "mobileWebsite",
+          "type": "string"
+        }
+        {
+          "name": "website",
+          "type": "string"
+        }
+        {
+          "name": "street",
+          "type": "string"
+        }
+        {
+          "name": "zip",
+          "type": "string"
         }
       ]
     },
@@ -157,12 +345,60 @@
       "intent": "SendFullReportIntent",
       "slot": [
         {
-          "name": "resort",
-          "type": "LIST_OF_RESORTS"
+          "name": "resortName",
+          "type": "string"
         }
         {
-          "name": "number",
-          "type": "LIST_OF_NUMBERS"
+          "name": "activeDate",
+          "type": "Date"
+        }
+        {
+          "name": "openflagname",
+          "type": "string"
+        }
+        {
+          "name": "latestSnow",
+          "type": "double"
+        }
+        {
+          "name": "snow24th",
+          "type": "double"
+        }
+        {
+          "name": "snow72th",
+          "type": "double"
+        }
+        {
+          "name": "snowCondition",
+          "type": "string"
+        }
+        {
+          "name": "liftsOpen",
+          "type": "integer"
+        }
+        {
+          "name": "perLiftsOpen",
+          "type": "integer"
+        }
+        {
+          "name": "avalancheScaleText",
+          "type": "string"
+        }
+        {
+          "name": "baseWeatherText",
+          "type": "string"
+        }
+        {
+          "name": "topWeatherText",
+          "type": "string"
+        }
+        {
+          "name": "visibilityBottomText",
+          "type": "string"
+        }
+        {
+          "name": "visibilityTopText",
+          "type": "string"
         }
       ]
     },
@@ -170,12 +406,20 @@
       "intent": "SendFiveDayForecastIntent",
       "slot": [
         {
-          "name": "resort",
-          "type": "LIST_OF_RESORTS"
+          "name": "resortName",
+          "type": "string"
         }
         {
-          "name": "number",
-          "type": "LIST_OF_NUMBERS"
+          "name": "resortReportedWeather",
+          "type": "string"
+        }
+        {
+          "name": "baseWeatherText",
+          "type": "string"
+        }
+        {
+          "name": "topWeatherText",
+          "type": "string"
         }
       ]
     },
@@ -183,12 +427,36 @@
       "intent": "SendContactInfoIntent",
       "slot": [
         {
-          "name": "resort",
-          "type": "LIST_OF_RESORTS"
+          "name": "resortName",
+          "type": "string"
         }
         {
-          "name": "number",
-          "type": "LIST_OF_NUMBERS"
+          "name": "lodgingPhone",
+          "type": "string"
+        }
+        {
+          "name": "phone800",
+          "type": "string"
+        }
+        {
+          "name": "skierEmail",
+          "type": "string"
+        }
+        {
+          "name": "mobileWebsite",
+          "type": "string"
+        }
+        {
+          "name": "website",
+          "type": "string"
+        }
+        {
+          "name": "street",
+          "type": "string"
+        }
+        {
+          "name": "zip",
+          "type": "string"
         }
       ]
     },
