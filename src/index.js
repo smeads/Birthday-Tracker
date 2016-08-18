@@ -165,7 +165,23 @@ SnowGiddy.prototype.intentHandlers = {
                 type: AlexaSkill.speechOutputType.PLAIN_TEXT
         };
         response.tell(speechOutput);
-    }
+  },
+
+  "AMAZON.RepeatIntent": function (intent, session, response) {
+      var speechOutput = {
+              speech: ""
+              type: AlexaSkill.speechOutputType.PLAIN_TEXT
+      };
+      reponse.tell(speechOutput);
+  },
+
+  "AMAZON.StartOverIntent": function (intent, session, response) {
+      var speechOutput = {
+              speech: ""
+              type: AlexaSkill.speechOutputType.PLAIN_TEXT
+      };
+      response.tell(speechOutput);
+  },  
 };
 
 /**
