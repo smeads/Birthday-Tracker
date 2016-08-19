@@ -154,7 +154,7 @@
       ]
     },
     {
-      "intent": "SendFullReportIntent",
+      "intent": "SendSendFullReportIntent",
       "slots": [
         {
           "name": "resortName",
@@ -163,7 +163,7 @@
       ]
     },
     {
-      "intent": "SendFiveDayForecastIntent",
+      "intent": "SendSendFiveDayForecastIntent",
       "slots": [
         {
           "name": "resortName",
@@ -172,7 +172,7 @@
       ]
     },
     {
-      "intent": "SendContactInfoIntent",
+      "intent": "SendSendContactInfoIntent",
       "slots": [
         {
           "name": "resortName",

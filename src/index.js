@@ -185,7 +185,7 @@ function getWelcomeResponse(response) {
 }
 
 function handleFullReportRequest(intent, session, response) {
-    var resortSlot = intent.slots.resortName;
+    var resortNameSlot = intent.slots.resortName;
     var repromptText = "With Snow Giddy, you can get snow updates and more for any ski resort. For example, you could say Sundance Mountain full report, or Sundance Mountain five day forecast, or you can say exit. Now, which resort do you want?";
     var resortNames = ["Alta", "Brighton", "Snowbird", "Solitude", "Park City", "Canyons", "Sundance", "Sun Valley", "Brian Head", "Bear Mountain", "Mammoth"
     ];
