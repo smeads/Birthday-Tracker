@@ -1,26 +1,10 @@
 var APP_ID = undefined; //replace with 'amzn1.echo-sdk-ams.app.[your-unique-value-here]';
-
 var https = require('https');
-
-/**
- * The AlexaSkill Module that has the AlexaSkill prototype and helper functions
- */
 var AlexaSkill = require('./AlexaSkill');
-
 /**
  * URL prefix to download skir resort content from OnTheSnow.com
  */
 var urlPrefix = ''
-/**
- * Variable defining number of events to be read at one time
- */
-var paginationSize = 3;
-
-/**
- * Variable defining the length of the delimiter between events
- */
-var delimiterSize = 2;
-
 /**
  * SnowGiddy is a child of AlexaSkill.
  * To read more about inheritance in JavaScript, see the link below.
@@ -96,7 +80,7 @@ SnowGiddy.prototype.intentHandlers = {
         handleSnowConditionRequest(intent, session, response);
     },
 
-    "GetresortStatusIntent": function (intent, session, response) {
+    "GetResortStatusIntent": function (intent, session, response) {
         handleResortStatusRequest(intent, session, response);
     },
 
@@ -137,7 +121,7 @@ SnowGiddy.prototype.intentHandlers = {
     },
 
     "AMAZON.HelpIntent": function (intent, session, response) {
-        var speechText = "With Snow Giddy, you can get snow updates and more for any ski resort." +
+        var speechText = "With Snow Giddy, you can get snow updates and much more for any ski resort." +
             "For example, you could say Sundance Mountain Resort full report, or Sundance Mountain Resort five day forecast, or you can say exit. Now, which resort do you want?";
         var repromptText = "Which resort do you want?";
         var speechOutput = {
@@ -181,22 +165,14 @@ SnowGiddy.prototype.intentHandlers = {
               type: AlexaSkill.speechOutputType.PLAIN_TEXT
       };
       response.tell(speechOutput);
-  },  
+  },
 };
 
-/**
- * Function to handle the onLaunch skill behavior
- */
-
 function getWelcomeResponse(response) {
-    // If we wanted to initialize the session to have some attributes we could add those here.
     var cardTitle = "Snow Giddy";
-    var repromptText = "With Snow Giddy, you can get snow updates and more for any ski resort. For example, you could say Sundance Mountain full report, or Sundance Mountain five day forecast, or you can say exit. Now, which resort do you want?";
-    var speechText = "<p>Snow giddy.</p> <p>What resort do you want information for?</p>";
+    var repromptText = "With Snow Giddy, you can get snow updates and much more for any ski resort. For example, you could say Sundance Mountain full report, or Sundance Mountain five day forecast, or you can say exit. Now, which resort do you want?";
+    var speechText = "<p>Snow Giddy.</p> <p>What resort do you want information for?</p>";
     var cardOutput = "Snow Giddy. What resort do you want information for?";
-    // If the user either does not reply to the welcome message or says something that is not
-    // understood, they will be prompted again with this text.
-
     var speechOutput = {
         speech: "<speak>" + speechText + "</speak>",
         type: AlexaSkill.speechOutputType.SSML
@@ -208,17 +184,12 @@ function getWelcomeResponse(response) {
     response.askWithCard(speechOutput, repromptOutput, cardTitle, cardOutput);
 }
 
-/**
- * Gets a poster prepares the speech to reply to the user.
- */
 function handleFullReportRequest(intent, session, response) {
-    var resortSlot = intent.slots.resort;
+    var resortSlot = intent.slots.resortName;
     var repromptText = "With Snow Giddy, you can get snow updates and more for any ski resort. For example, you could say Sundance Mountain full report, or Sundance Mountain five day forecast, or you can say exit. Now, which resort do you want?";
-    var resortNames = ["Alta", "Snowbird", "Solitude", "Brighton", "Park City", "Canyons",
-                      "Sun Valley", "Vail", "Bear Mountain", "Mammoth", "Jackson Hole", "White Pine"
+    var resortNames = ["Alta", "Brighton", "Snowbird", "Solitude", "Park City", "Canyons", "Sundance", "Sun Valley", "Brian Head", "Bear Mountain", "Mammoth"
     ];
     var sessionAttributes = {};
-    // Read the first 3 events, then set the count to 3
     sessionAttributes.index = paginationSize;
     var resort = "";
 
