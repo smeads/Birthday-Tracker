@@ -134,17 +134,17 @@ GetLiftTicketPriceIntent {resortName} lift ticket price
 GetLiftTicketPriceIntent tell lift ticket price for {resortName}
 GetLiftTicketPriceIntent hear lift ticket price for {resortName}
 
-SendSendFullReportIntent send full report for {resortName} to phone number
-SendSendFullReportIntent send me full report for {resortName} to phone number
-SendSendFullReportIntent text full report for {resortName} to phone number
-SendSendFullReportIntent receive full report for {resortName} to phone number
+SendTextFullReportIntent send full report for {resortName} to phone number
+SendTextFullReportIntent send me full report for {resortName} to phone number
+SendTextFullReportIntent text full report for {resortName} to phone number
+SendTextFullReportIntent receive full report for {resortName} to phone number
 
-SendSendFiveDayForecastIntent send five day forecast for {resortName} to phone number
-SendSendFiveDayForecastIntent send me five day forecast for {resortName} to phone number
-SendSendFiveDayForecastIntent text five day forecast for {resortName} to phone number
-SendSendFiveDayForecastIntent receive five day forecast for {resortName} to phone number
+SendTextFiveDayForecastIntent send five day forecast for {resortName} to phone number
+SendTextFiveDayForecastIntent send me five day forecast for {resortName} to phone number
+SendTextFiveDayForecastIntent text five day forecast for {resortName} to phone number
+SendTextFiveDayForecastIntent receive five day forecast for {resortName} to phone number
 
-SendSendContactInfoIntent send contact info for {resortName} to phone number
-SendSendContactInfoIntent send me contact info for {resortName} to phone number
-SendSendContactInfoIntent text contact info for {resortName} to phone number
-SendSendContactInfoIntent receive contact info for {resortName} to phone number
+SendTextContactInfoIntent send contact info for {resortName} to phone number
+SendTextContactInfoIntent send me contact info for {resortName} to phone number
+SendTextContactInfoIntent text contact info for {resortName} to phone number
+SendTextContactInfoIntent receive contact info for {resortName} to phone number

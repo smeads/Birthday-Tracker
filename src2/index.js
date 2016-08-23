@@ -121,16 +121,16 @@ SnowGiddySkill.prototype.intentHandlers = {
         handleLiftTicketPriceRequest(intent, session, response);
     },
 
-    "SendFullReportIntent": function (intent, session, response) {
-        handleSendFullReportRequest(intent, session, response);
+    "SendTextFullReportIntent": function (intent, session, response) {
+        handleTextFullReportRequest(intent, session, response);
     },
 
-    "SendFiveDayForecastIntent": function (intent, session, response) {
-        handleSendFiveDayForecastRequest(intent, session, response);
+    "SendTextFiveDayForecastIntent": function (intent, session, response) {
+        handleTextFiveDayForecastRequest(intent, session, response);
     },
 
-    "SendContactInfoIntent": function (intent, session, response) {
-        handleSendContactInfoRequest(intent, session, response);
+    "SendTextContactInfoIntent": function (intent, session, response) {
+        handleTextContactInfoRequest(intent, session, response);
     },
 
     "AMAZON.HelpIntent": function (intent, session, response) {
@@ -459,7 +459,7 @@ function handleLiftTicketPriceRequest(intent, session, response) {
   response.tell(speechOutput);
 }
 
-function handleSendFullReportRequest(intent, session, response) {
+function handleTextFullReportRequest(intent, session, response) {
   var resortNameSlot = intent.slots.resortName;
   var speechOutput = {
           speech: "I sent a full report for Alta to your mobile device.",
@@ -468,7 +468,7 @@ function handleSendFullReportRequest(intent, session, response) {
   response.tell(speechOutput);
 }
 
-function handleSendFiveDayForecastRequest(intent, session, response) {
+function handleTextFiveDayForecastRequest(intent, session, response) {
   var resortNameSlot = intent.slots.resortName;
   var speechOutput = {
           speech: "I sent a five day forecast for Alta to your mobile device.",
@@ -477,7 +477,7 @@ function handleSendFiveDayForecastRequest(intent, session, response) {
   response.tell(speechOutput);
 }
 
-function handleSendContactInfoRequest(intent, session, response) {
+function handleTextContactInfoRequest(intent, session, response) {
   var resortNameSlot = intent.slots.resortName;
   var speechOutput = {
           speech: "I sent contact info for Alta to your mobile device.",
